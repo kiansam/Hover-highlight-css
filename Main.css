@@ -1,0 +1,19 @@
+const "name of the component" = styled.a`
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    #fff 50%
+  );
+  border-radius: 1px;
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: background-position 0.2s ease-out;
+  &:hover {
+    background-position: -99.99% 0;
+    color: #000;
+  }
+`;
