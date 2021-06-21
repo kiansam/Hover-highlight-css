@@ -1,2 +1,3 @@
 # Hover-highlight-css
-Hover-highlight-css transition
+Navbar items
+styled-components highlight hover transition using css.
